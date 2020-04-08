@@ -1,14 +1,3 @@
-## Neighborhood aggregation-based graph embedding methods
-### Spectral methods
-* Spectral network 
-* ChebNet
-* GCN
-
-### Spatial methods 
-* MoNet
-* GraphSAGE 
-* GAT
-
 ## Reference
 - 2016 | ICLR | Gated Graph Sequence Neural Networks | Li et al. 
 - 2016 | NIPS | Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering | Defferrard, Xavier Bresson and Pierre Vandergheynst | [code](https://github.com/mdeff/cnn_graph)
