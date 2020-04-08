@@ -1,3 +1,14 @@
+## Neighborhood aggregation-based graph embedding methods
+### Spectral methods
+* Spectral network 
+* ChebNet
+* GCN
+
+### Spatial methods 
+* MoNet
+* GraphSAGE 
+* GAT
+
 ## ChebNet
 * K-局部化，只依赖于远离中心节点的最大K步的节点(K阶邻域)
 
