@@ -6,7 +6,6 @@
 - 2017 | ICML | Neural Message Passing for Quantum Chemistry | Gilmer et al.
 - 2018 | ICLR | Graph Attention Networks | Velickovic et al. | [code](https://github.com/PetarV-/GAT)
 - 2018 | ICLR | FastGCN: Fast Learning with Graph Convolutional Networks via Importance Sampling | Chen et al. | [code](https://github.com/matenure/FastGCN)
-- 2019 | ICML | MixHop: Higher-Order Graph Convolutional Architectures via Sparsified Neighborhood Mixing | Sami Abu-El-Haija, Bryan Perozzi et al. | [code](https://github.com/samihaija/mixhop)
 
 ## Tutorial 
 - 2019 | AAAI | Graph Representation Learning | William Hamilton and Jian Tang | [pdf](https://jian-tang.com/files/AAAI19/aaai-grltutorial-part2-gnns.pdf)
