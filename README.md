@@ -13,3 +13,5 @@
 ## Books
 - 《深入浅出图神经网络》 | [code](https://github.com/FighterLYL/GraphNeuralNetwork)
 
+## Blogs
+- archwalker | [link](https://archwalker.github.io/archive.html)
