@@ -20,9 +20,13 @@
 * 高阶的信息传递
 * 具体为表示两跳delta算子
 
+## 模型的表达能力
+* 图同构测试/Weisfeiler-Leman
+
 ## reference 
 - 2018 | ICML | Representation Learning on Graphs with Jumping Knowledge Networks | Keyulu Xu et al.
 - 2019 | ICCV | DeepGCNs: Can GCNs Go as Deep as CNNs? | Guohao Li, Matthias Müller et al.
 - 2019 | KDD | Cluster-GCN: An Efficient Algorithm for Training Deep and Large Graph Convolutional Networks | Wei-Lin Chiang, Xuanqing Liu, Si Si, Yang Li, Samy Bengio and Cho-Jui Hsieh
 - 2019 | ICML | MixHop: Higher-Order Graph Convolutional Architectures via Sparsified Neighborhood Mixing | Sami Abu-El-Haija, Bryan Perozzi et al. | [code](https://github.com/samihaija/mixhop)
+- 2019 | ICLR | How Powerful are Graph Neural Networks? | xukeyulu et al.
 - 2020 | ICLR | DropEdge: Towards Deep Graph Convolutional Networks on Node Classification | Yu Rong et al. | [code](https://github.com/DropEdge/DropEdge)
