@@ -1,4 +1,5 @@
 ## Reference
+- 2014 | ICLR | Spectral Networks and Locally Connected Networks on Graphs | Joan Bruna, Wojciech Zaremba, Arthur Szlam and Yann LeCun
 - 2016 | ICLR | Gated Graph Sequence Neural Networks | Li et al. 
 - 2016 | NIPS | Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering | Defferrard, Xavier Bresson and Pierre Vandergheynst | [code](https://github.com/mdeff/cnn_graph)
 - 2017 | ICLR | Semi-Supervised Classification Graph Convolutional Networks | Thomas N. Kipf and Max Welling | [code](https://github.com/tkipf)
