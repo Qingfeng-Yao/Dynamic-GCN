@@ -1,10 +1,10 @@
 ## Neighborhood aggregation-based graph embedding methods
-### Spectral methods
+### Spectral methods/谱域图卷积
 * Spectral network 
 * ChebNet
 * GCN
 
-### Spatial methods 
+### Spatial methods/空域图卷积
 * MoNet
 * GraphSAGE 
 * GAT
