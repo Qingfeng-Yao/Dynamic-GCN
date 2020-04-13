@@ -9,27 +9,27 @@
 * 添加残差连接/residual: ResGCN
 * 使用个性化PageRank，该PageRank还将根节点包含到消息传递循环中
 * 借鉴DenseNet，将residual连接替换为dense连接: JKNet
- * 多跳消息传递
+  * 多跳消息传递
 * DeepGCNs: 包含residual layers, dense connections and dilated convolutions
- * graph-level classification
+  * graph-level classification
 * 使用残差连接矫枉过正，残差模块完全忽略了相邻节点的权重
   
 ### DropEdge
 * 在每次训练epoch中随机删除输入图中的一部分边
- * 防止过拟合：数据增强(产生输入数据的不同随机变形)
-   * 在训练期间采用随机子集聚合而非完全聚合
- * 防止过平滑：降低过平滑的收敛速度；减少过平滑导致的信息损失
+  * 防止过拟合：数据增强(产生输入数据的不同随机变形)
+    * 在训练期间采用随机子集聚合而非完全聚合
+  * 防止过平滑：降低过平滑的收敛速度；减少过平滑导致的信息损失
 * 与Dropout, DropNode, and Graph Sparsification的比较
- * Dropout: 随机使某些特征维的值为0，可防止过拟合，不可防止过平滑(没有改变邻接矩阵)；可与DropEdge兼容
+  * Dropout: 随机使某些特征维的值为0，可防止过拟合，不可防止过平滑(没有改变邻接矩阵)；可与DropEdge兼容
 
 ## 模型宽度
 * 通过不同尺度接受场的组合对提高模型对节点的表征能力
 
 ### mixhop
 * 混合在不同距离的邻居特征表示，同时不需要额外的内存和计算复杂度
- * 高阶的消息传递
- * 表示邻居之间的特征的不同
- * 具体为表示两跳delta算子
+  * 高阶的消息传递
+  * 表示邻居之间的特征的不同
+  * 具体为表示两跳delta算子
 
 ## 模型的表达能力
 * 图同构测试/Weisfeiler-Leman
