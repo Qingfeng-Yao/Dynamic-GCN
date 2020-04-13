@@ -20,15 +20,14 @@
     * 在训练期间采用随机子集聚合而非完全聚合
   * 防止过平滑：降低过平滑的收敛速度；减少过平滑导致的信息损失
 * 与Dropout, DropNode, and Graph Sparsification的比较
-  * Dropout: 随机使某些特征维的值为0，可防止过拟合，不可防止过平滑(没有改变邻接矩阵)；可与DropEdge兼容
+  * Dropout: 随机使某些特征维的值为0，可防止过拟合，不可防止过平滑(没有改变邻接矩阵); 可与DropEdge兼容
+  * DropNode: node sampling based methods(sample sub-graphs for mini-batch training); DropEdge的特殊形式
 
 ## 模型宽度
 * 通过不同尺度接受场的组合对提高模型对节点的表征能力
 
 ### mixhop
 * 混合在不同距离的邻居特征表示，同时不需要额外的内存和计算复杂度
-  * 高阶的消息传递
-  * 表示邻居之间的特征的不同
   * 具体为表示两跳delta算子
 
 ## 模型的表达能力
