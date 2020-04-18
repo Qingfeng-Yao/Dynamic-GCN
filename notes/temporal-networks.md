@@ -12,6 +12,8 @@
 ## 注意力模型
 * DySAT
   * 沿时间和空间两个维度共同采用自我注意层来计算节点表示
+  
+## 预测事件
 
 
 ## reference
@@ -19,3 +21,4 @@
 * 2019 | ICLR | DyRep: Learning Representations over Dynamic Graphs | Rakshit Trivedi et al.
 * 2019 | ICML | Dynamic Graph Representation Learning via Self-Attention Networks | Aravind Sankar et al.
 * 2019 | IJCAI | Node Embedding over Temporal Graphs | Uriel Singer et al.
+* 2019 | KDD | Learning Dynamic Context Graphs for Predicting Social Events | Songgaojun Deng et al.
