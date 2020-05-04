@@ -1,3 +1,16 @@
+## 图卷积
+- 将卷积拓展到图上
+	- no node ordering: 当节点没有给定位置时，如何将template特征和数据特征进行匹配
+	- heterogeneous neighborhood: 如何解决不同的邻域大小
+- 将卷积理论扩展到图上
+	- 如何定义图傅立叶变换
+	- 如何在O(n)时间内计算快速谱卷积(for compact kernels)
+- 谱卷积
+	- 图拉普拉斯：谱图理论中的核心算子；`measure of smoothness`(局部值与邻域平均值之间的difference)；一个对图进行调和分析的算子
+	- 傅立叶函数：图拉普拉斯的特征向量；图拉普拉斯的特征值/spectrum
+	- 傅立叶变换：线性操作；将傅立叶变换迁移到图上的核心工作是把拉普拉斯算子的特征函数对应到图拉普拉斯的特征向量
+	- 卷积定理
+
 ## Neighborhood aggregation-based graph embedding methods
 ### Spectral methods/谱域图卷积
 * Spectral network 
@@ -54,7 +67,7 @@
 	* 主要用来解决边上有权重的图神经网络该如何更新Embedding的问题
 	* 其中边上的权重被显式的建模到模型中来，作为邻居加权求和的权重，这里免去了对邻居权重的学习，直接用边的权重表征邻居的相对重要性
 
-## Reference
+## References
 - 2014 | ICLR | Spectral Networks and Locally Connected Networks on Graphs | Joan Bruna, Wojciech Zaremba, Arthur Szlam and Yann LeCun
 - 2016 | ICML | Learning Convolutional Neural Networks for Graphs | Mathias Niepert et al.
 - 2016 | ICLR | Gated Graph Sequence Neural Networks | Li et al. 
@@ -69,3 +82,4 @@
 - 2018 | KDD | Large-scale Learnable Graph Convolutional Networks | Hongyang Gao et al.
 - 2018 | ICLR | FastGCN: Fast Learning with Graph Convolutional Networks via Importance Sampling | Chen et al. | [code](https://github.com/matenure/FastGCN)
 - 2018 | NIPS | Adaptive Sampling Towards Fast Graph Representation Learning | Wenbing Huang et al.
+- [GCN2020概述](https://mp.weixin.qq.com/s/Nvgt70529OQ5f7fkGH2Pgw) | Xavier Bresson
