@@ -82,4 +82,3 @@
 - 2018 | KDD | Large-scale Learnable Graph Convolutional Networks | Hongyang Gao et al.
 - 2018 | ICLR | FastGCN: Fast Learning with Graph Convolutional Networks via Importance Sampling | Chen et al. | [code](https://github.com/matenure/FastGCN)
 - 2018 | NIPS | Adaptive Sampling Towards Fast Graph Representation Learning | Wenbing Huang et al.
-- [GCN2020概述](https://mp.weixin.qq.com/s/Nvgt70529OQ5f7fkGH2Pgw) | Xavier Bresson
