@@ -28,6 +28,10 @@
 - encoder/GCN(两层)；decoder/内积
 - 连接预测
 
+### GCN-VAE
+- 将实体的邻域结构编码成一个压缩的隐含嵌入分布(R-GCN)，并通过解码器预测边的似然来重建实体间的边
+	- 非高斯隐含分布
+
 ## STGNNs 
 - 拓扑结构静止，点或边特征变化
 - 主要思想：
@@ -50,13 +54,18 @@
 	- 池化操作或read-out操作
 
 ## Training Frameworks
-- Semi-supervised learning for node-level classification[2] 
+- Semi-supervised learning for node-level classification
 - Supervised learning for graph-level classification 
 - Unsupervised learning for graph embedding
 	- 这些算法以两种方式利用edge-level信息
 		- 1、采用autoencoder框架
 		- 2、负采样方法
 			- 其中logistic regression层被用来区分正负配对
+			
+## 知识图谱
+- 表示实体间的关系事实
+- 不完整(手动收集) --> 预测缺失的边
+- TransE: 知识图谱嵌入
 
 
 ## References
